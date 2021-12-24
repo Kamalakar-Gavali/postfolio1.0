@@ -1,0 +1,45 @@
+
+/* Add your profile image here */
+.Photo{
+    background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQEcaGbk2ZHrgg/profile-displayphoto-shrink_200_200/0/1628153532936?e=1645660800&v=beta&t=iepznp8Dskr9FRoJqhtrolxOIODKhXJYi_37VFJy9wE")
+    /* url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+}
+/* Projects Photo */
+.project1{
+    background-image: url('https://github.com/Kamalakar-Gavali/Windbnb/raw/main/src/resources/Windbnb.png');
+    cursor: none;
+}
+.project2{
+    background-image: url('https://raw.githubusercontent.com/Kamalakar-Gavali/quiz/main/src/Resources/quiz.png');
+    cursor: none;    
+}
+.project3{
+    background-image: url('https://raw.githubusercontent.com/Kamalakar-Gavali/random-quote-generator/main/src/resources/randomQuote.png');
+    cursor: none;
+}
+.project4{
+    background-image: url('https://github.com/Kamalakar-Gavali/todo-/raw/main/src/resources/todo.png');
+    cursor: none;
+}
+
+.project5{
+    background-image: url('https://github.com/Kamalakar-Gavali/Input-Component/raw/main/public/inputDemoScreenshot.png');
+    cursor: none;
+}
+.project6{
+    background-image: url('https://github.com/Kamalakar-Gavali/Button-Component/raw/master/public/screenshot.png');
+    cursor: none;
+}
+/* Miscelaneous Activities photo */
+.misc1{
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1634994126951/qnIAUQv8X.gif?w=1600&h=840&fit=crop&crop=entropy&auto=format,compress&gif-q=60&format=webm');
+    cursor: none;
+}
+.misc2{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    cursor: none;
+}
+.misc3{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    cursor: none;
+}
