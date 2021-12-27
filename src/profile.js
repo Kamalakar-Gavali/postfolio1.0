@@ -1,3 +1,5 @@
+import Resume from './CV.pdf'
+
 // Change website animations
 const animation = {
   // make it false to switch off fade-up animation
@@ -18,7 +20,7 @@ type: 'Snow'
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Software Engineer who loves to transform ideas into reality using code. Experience of developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs. Motivated Code Tinkerer and developer with experience creating custom websites with ReactJs, Node, Expres sand  Mongo.",
+    "Software Engineer who loves to transform ideas into reality using code. Experience of developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs. Motivated Code Tinkerer and developer with experience creating custom websites with ReactJs, Node, Express and  MongoDB.",
 };
 const skillsBar = [
   {
@@ -81,7 +83,7 @@ const projects = [
     id: "project1",
     name: "Windbnb",
     skills: ["React,JS,Styled Component,HTML"],
-    // url: "https://github.com/Kamalakar-Gavali/Windbnb",
+    codeUrl: "https://github.com/Kamalakar-Gavali/Windbnb",
     url:"https://windbnb101.netlify.app/"
     
   },
@@ -90,7 +92,7 @@ const projects = [
     id: "project2",
     name: "Quiz",
     skills: ["React,Typescript,Tailwindcss"],
-    // url: "https://github.com/Kamalakar-Gavali/quiz",
+    codeUrl: "https://github.com/Kamalakar-Gavali/quiz",
     url:"https://quizzical-sinoussi-e04c83.netlify.app/"
   },
   {
@@ -98,7 +100,7 @@ const projects = [
     id: "project3",
     name: "Random Quote Generator",
     skills: ["React,JS,Styled Component,HTML"],
-    // url: "https://github.com/Kamalakar-Gavali/random-quote-generator",
+    codeUrl: "https://github.com/Kamalakar-Gavali/random-quote-generator",
     url:"https://random-quote-generator-reactjs.netlify.app/"
   },
   {
@@ -106,8 +108,8 @@ const projects = [
     id: "project4",
     name: "#todo",
     skills: ["React,JS,Styled Component,HTML"],
-    url:'https://pedantic-boyd-abd421.netlify.app/'
-    // url: "https://github.com/Kamalakar-Gavali/todo-",
+    url:'https://pedantic-boyd-abd421.netlify.app/',
+    codeUrl: "https://github.com/Kamalakar-Gavali/todo-",
 
   },
   
@@ -116,7 +118,7 @@ const projects = [
     id: "project5",
     name: "Input Component",
     skills: ["React,JS,Storybook,SASS"],
-    // url: "https:/ /github.com/Kamalakar-Gavali/Input-Component",
+    codeUrl: "https:/ /github.com/Kamalakar-Gavali/Input-Component",
     url:"https://6179adf4d9a2d4003a5963b7-flebdpntdf.chromatic.com/"
   },
   {
@@ -124,7 +126,7 @@ const projects = [
     id: "project6",
     name: "Button Component",
     skills: ["React,JS,Storybook,SASS"],
-    // url: "https://github.com/Kamalakar-Gavali/Button-Component",
+    codeUrl: "https://github.com/Kamalakar-Gavali/Button-Component",
     url:"https://6171ad36704724003a435967-nycalknnyq.chromatic.com/"
   },
 ];
@@ -154,7 +156,7 @@ const social = {
   twitter: "https://twitter.com/kamalakar_g1",
   // instagram: "https://instagram.com",
   linkedin: "https://in.linkedin.com/in/kamalakar-gavali",
-  resume: "https://novoresume.com/",
+  resume: Resume
 };
 
 export {
